@@ -55,8 +55,8 @@ Each lab contains:
 
 ## 👨‍💻 Author
 
-Name: **Moad Mekki**
-GitHub: https://github.com/MOAD-Mekki
+* Name: **Moad Mekki**
+* GitHub: https://github.com/MOAD-Mekki
 
 ---
 
