@@ -1,0 +1,41 @@
+# =========================
+
+# Switch Configuration
+
+# =========================
+
+# Hostname
+
+sysname Switch1
+
+# -------------------------
+
+# VLAN Configuration
+
+# -------------------------
+
+vlan batch 10
+
+# -------------------------
+
+# Access Ports
+
+# -------------------------
+
+# PC1
+
+interface GigabitEthernet0/0/1
+port link-type access
+port default vlan 10
+
+# PC2
+
+interface GigabitEthernet0/0/2
+port link-type access
+port default vlan 10
+
+# -------------------------
+
+# End Configuration
+
+# -------------------------
