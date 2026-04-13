@@ -13,7 +13,7 @@ To build a strong foundation in network engineering by applying real-world conce
 
 ## 🧠 Skills Demonstrated
 
-* VLAN Segmentation
+* Basic VLAN Segmentation
 * Network Verification & Troubleshooting
 * CLI Configuration (Huawei VRP)
 
@@ -24,7 +24,7 @@ To build a strong foundation in network engineering by applying real-world conce
 ```
 network-labs/
 │
-├── VLAN-Segmentation/
+├── Basic VLAN Segmentation/
 ```
 
 Each lab contains:
@@ -38,7 +38,7 @@ Each lab contains:
 
 ## 📚 Labs Overview
 
-### 🔹 VLAN Segmentation
+### 🔹 Basic VLAN Segmentation
 
 * Network segmentation using VLANs
 * Access and trunk port configuration
