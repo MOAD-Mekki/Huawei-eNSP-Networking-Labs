@@ -1,0 +1,49 @@
+# =========================
+
+# Switch Configuration
+
+# =========================
+
+sysname SW1
+
+# -------------------------
+
+# VLAN Configuration
+
+# -------------------------
+
+vlan batch 10 20
+
+# -------------------------
+
+# Access Ports
+
+# -------------------------
+
+# PC1 → VLAN 10
+
+interface GigabitEthernet0/0/1
+port link-type access
+port default vlan 10
+
+# PC2 → VLAN 20
+
+interface GigabitEthernet0/0/2
+port link-type access
+port default vlan 20
+
+# -------------------------
+
+# Trunk Port (to Router)
+
+# -------------------------
+
+interface GigabitEthernet0/0/24
+port link-type trunk
+port trunk allow-pass vlan 10 20
+
+# -------------------------
+
+# End Configuration
+
+# -------------------------

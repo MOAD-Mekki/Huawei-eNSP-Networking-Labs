@@ -1,0 +1,42 @@
+# =========================
+
+# Router Configuration
+
+# =========================
+
+sysname R1
+
+# -------------------------
+
+# Enable Interface (Optional because they are enabled by default)
+
+# -------------------------
+
+interface GigabitEthernet0/0/0
+undo shutdown
+
+# -------------------------
+
+# Sub-interface VLAN 10
+
+# -------------------------
+
+interface GigabitEthernet0/0/0.10
+dot1q termination vid 10
+ip address 192.168.10.1 255.255.255.0
+
+# -------------------------
+
+# Sub-interface VLAN 20
+
+# -------------------------
+
+interface GigabitEthernet0/0/0.20
+dot1q termination vid 20
+ip address 192.168.20.1 255.255.255.0
+
+# -------------------------
+
+# End Configuration
+
+# -------------------------
