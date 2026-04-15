@@ -25,6 +25,7 @@ To build a strong foundation in network engineering by applying real-world conce
 network-labs/
 │
 ├── Basic VLAN Segmentation/
+├── inter-VLAN Routing/
 ```
 
 Each lab contains:
