@@ -45,7 +45,17 @@ Each lab contains:
 ### 🔹 Basic VLAN Segmentation
 
 * Network segmentation using VLANs
-* Access and trunk port configuration
+* Access port configuration
+
+### 🔹 Inter-VLAN Routing
+
+* Communication between VLANs
+* Router-on-a-stick configuration
+
+### 🔹 Static Routing 
+
+* Communication between diffrent Networks
+* WAN links Configuration
 
 ---
 
