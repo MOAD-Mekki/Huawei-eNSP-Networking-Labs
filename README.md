@@ -14,6 +14,8 @@ To build a strong foundation in network engineering by applying real-world conce
 ## 🧠 Skills Demonstrated
 
 * Basic VLAN Segmentation
+* Inter-VLAN Routing
+* Static Routing
 * Network Verification & Troubleshooting
 * CLI Configuration (Huawei VRP)
 
