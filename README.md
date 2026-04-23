@@ -28,6 +28,7 @@ network-labs/
 │
 ├── Basic VLAN Segmentation/
 ├── inter-VLAN Routing/
+├── Static Routing/
 ```
 
 Each lab contains:
