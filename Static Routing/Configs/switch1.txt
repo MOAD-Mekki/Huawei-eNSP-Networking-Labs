@@ -1,0 +1,17 @@
+# =========================
+
+# Switch 1 Configuration
+
+# =========================
+
+sysname Switch1
+
+# PC1 Access Port
+
+interface GigabitEthernet0/0/1
+port link-type access
+
+# Router1 Connection
+
+interface GigabitEthernet0/0/24
+port link-type access

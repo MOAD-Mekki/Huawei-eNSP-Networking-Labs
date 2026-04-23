@@ -1,0 +1,17 @@
+# =========================
+
+# Switch 2 Configuration
+
+# =========================
+
+sysname Switch2
+
+# PC2 Access Port
+
+interface GigabitEthernet0/0/1
+port link-type access
+
+# Router2 Connection
+
+interface GigabitEthernet0/0/24
+port link-type access

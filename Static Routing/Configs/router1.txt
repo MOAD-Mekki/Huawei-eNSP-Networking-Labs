@@ -1,0 +1,41 @@
+# =========================
+
+# Router 1 Configuration
+
+# =========================
+
+sysname Router1
+
+# -------------------------
+
+# LAN Interface
+
+# -------------------------
+
+interface GigabitEthernet0/0/0
+ip address 192.168.1.1 255.255.255.0
+undo shutdown
+
+# -------------------------
+
+# WAN Link to Router2
+
+# -------------------------
+
+interface GigabitEthernet0/0/1
+ip address 10.0.0.1 255.255.255.0
+undo shutdown
+
+# -------------------------
+
+# Static Route to Network 2
+
+# -------------------------
+
+ip route-static 192.168.2.0 255.255.255.0 10.0.0.2
+
+# -------------------------
+
+# End Configuration
+
+# -------------------------
