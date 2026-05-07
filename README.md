@@ -16,6 +16,7 @@ To build a strong foundation in network engineering by applying real-world conce
 * Basic VLAN Segmentation
 * Inter-VLAN Routing
 * Static Routing
+* Daynamic Routing
 * Network Verification & Troubleshooting
 * CLI Configuration (Huawei VRP)
 
@@ -28,6 +29,7 @@ network-labs/
 │
 ├── Basic VLAN Segmentation/
 ├── inter-VLAN Routing/
+├── RIP Routing/
 ├── Static Routing/
 ```
 
@@ -56,6 +58,11 @@ Each lab contains:
 
 * Communication between diffrent Networks
 * WAN links Configuration
+
+### 🔹 RIP Routing 
+
+* Daynamic routing implementation
+* Multiple WAN configuration
 
 ---
 
