@@ -1,0 +1,55 @@
+# =========================
+
+# AR1 Configuration
+
+# =========================
+
+sysname AR1
+
+# -------------------------
+
+# LAN Interface
+
+# -------------------------
+
+interface GigabitEthernet0/0/0
+ip address 192.168.1.1 255.255.255.0
+undo shutdown
+
+# -------------------------
+
+# Link to AR2
+
+# -------------------------
+
+interface GigabitEthernet0/0/1
+ip address 10.0.12.1 255.255.255.0
+undo shutdown
+
+# -------------------------
+
+# Link to AR3
+
+# -------------------------
+
+interface GigabitEthernet0/0/2
+ip address 10.0.13.1 255.255.255.0
+undo shutdown
+
+# -------------------------
+
+# RIP Configuration
+
+# -------------------------
+
+rip 1
+version 2
+network 192.168.1.0
+network 10.0.12.0
+network 10.0.13.0
+
+# -------------------------
+
+# End Configuration
+
+# -------------------------

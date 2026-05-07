@@ -1,0 +1,13 @@
+# =========================
+
+# LSW1 Configuration
+
+# =========================
+
+sysname LSW1
+
+interface GigabitEthernet0/0/1
+port link-type access
+
+interface GigabitEthernet0/0/24
+port link-type access

@@ -1,0 +1,13 @@
+# =========================
+
+# LSW3 Configuration
+
+# =========================
+
+sysname LSW3
+
+interface GigabitEthernet0/0/1
+port link-type access
+
+interface GigabitEthernet0/0/24
+port link-type access

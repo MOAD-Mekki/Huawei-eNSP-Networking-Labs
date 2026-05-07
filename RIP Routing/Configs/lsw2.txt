@@ -1,0 +1,13 @@
+# =========================
+
+# LSW2 Configuration
+
+# =========================
+
+sysname LSW2
+
+interface GigabitEthernet0/0/1
+port link-type access
+
+interface GigabitEthernet0/0/24
+port link-type access
