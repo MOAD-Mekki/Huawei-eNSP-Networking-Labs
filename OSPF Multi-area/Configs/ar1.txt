@@ -1,0 +1,47 @@
+# =========================
+
+# AR1 Configuration
+
+# =========================
+
+sysname AR1
+
+# -------------------------
+
+# LAN Interface
+
+# -------------------------
+
+interface GigabitEthernet0/0/0
+ip address 192.168.1.1 255.255.255.0
+undo shutdown
+
+# -------------------------
+
+# Link to AR2
+
+# -------------------------
+
+interface GigabitEthernet0/0/1
+ip address 10.0.12.1 255.255.255.0
+undo shutdown
+
+# -------------------------
+
+# OSPF Configuration
+
+# -------------------------
+
+ospf 1 router-id 1.1.1.1
+
+area 0.0.0.1
+network 192.168.1.0 0.0.0.255
+
+area 0.0.0.0
+network 10.0.12.0 0.0.0.255
+
+# -------------------------
+
+# End Configuration
+
+# -------------------------
