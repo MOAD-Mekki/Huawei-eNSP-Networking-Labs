@@ -83,7 +83,7 @@ Each lab contains:
 ## 👨‍💻 Author
 
 * Name: **Moad Mekki**
-* GitHub: https://github.com/MOAD-Mekki
+* LinkedIn: [https://github.com/MOAD-Mekki](https://www.linkedin.com/in/mekki-moad-16b831391)
 
 ---
 
