@@ -31,14 +31,15 @@ network-labs/
 ├── inter-VLAN Routing/
 ├── RIP Routing/
 ├── Static Routing/
+├── OSPF Multi-area/
 ```
 
 Each lab contains:
 
-* 📘 Detailed explanation
-* 🖼️ Network topology
-* ⚙️ Device configurations
-* ✅ Verification results
+*  Detailed explanation
+*  Network topology
+*  Device configurations
+*  Verification results
 
 ---
 
@@ -64,6 +65,11 @@ Each lab contains:
 * Daynamic routing implementation
 * Multiple WAN configuration
 
+### 🔹 OSPF Multi-area 
+
+* Daynamic routing for multiple networks
+* OSPF backbone configuration
+
 ---
 
 ## 🛠️ Tools Used
@@ -83,5 +89,5 @@ Each lab contains:
 
 ## ⭐ Note
 
-If you found this project useful, consider giving it a ⭐ on GitHub!
-Feedback and suggestions are welcome.
+- If you found this project useful, consider giving it a ⭐ on GitHub!
+- Feedback and suggestions are welcome.
